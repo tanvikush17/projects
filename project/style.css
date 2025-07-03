@@ -1,0 +1,45 @@
+body {
+    background: linear-gradient(to bottom right, #0f2027, #203a43, #2c5364);
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    color: #FFFF66;
+}
+
+h2 {
+    color: #FFFF66;
+    text-shadow: 0 0 10px #FFFF66;
+    text-decoration:underline;
+    font-family: Bitcount Grid Double;
+}
+
+.board {
+    background-color:#FF1493 ;
+    border: 4px #FF1493;
+    box-shadow: 0 0 20px #00FFFF;
+    margin: auto;
+    padding: 10px;
+    font-size:80px;
+}
+
+.cell {
+    background-color:#00FFFF;
+    border: 2px solid #FF1493;
+    width: 100px;
+    height: 100px;
+}
+button {
+    background-color:#FFFF66;
+    color:#FF1493;
+    padding: 10px 20px;
+    font-weight: bolder;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+    box-shadow: 0 0 10px #FF1493;
+}
+
+button:hover {
+    background-color: #FF69B4;
+    color:#FFFF66;
+    box-shadow: 0 0 15px #FF69B4;
+}
